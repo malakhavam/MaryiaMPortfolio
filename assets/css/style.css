@@ -35,7 +35,7 @@ body {
 /*Hero style*/
 
 .hero {
-    background-image: url("../images/green-pink-background-1.jpg");
+    background-image: url("/assets/Images/green-pink-background-1.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
