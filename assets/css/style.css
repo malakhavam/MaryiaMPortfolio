@@ -22,25 +22,47 @@ body {
     header h1 {
         font-weight: bold;
         font-size: 36px;
-        color: #6d6b62;
+        color: #d5ee92;
         margin: 0;
         background-color: #6d6b62 ;
     }
-
-    header h1 a {
-        color: #d5ee92;
-    }
-
+        
     header a {
         text-decoration: none;
         color: #6d6b62;
     }
 
-    header nav {
+/*Hero style*/
+
+.hero {
+    background-image: url("../images/green-pink-background-1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+
+  .hero h2 {
+    width: 35%;
+    text-align: left;
+    margin: 5%;
+    color: #d5ee92;
+    font-size: 20px;
+    line-height: 1.3;
+    background-color: #6d6b62;
+            
+    }  
+
+         
+      
+/* navigation styles */
+    nav {
         margin: 7px 0;
     }
 
-    header nav ul {
+    nav ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -48,9 +70,87 @@ body {
         list-style: none;
     }
 
-    header nav ul li a {
+    nav ul li a {
         margin: 0 30px;
         font-weight: bold;
         font-size: 1.5vw;
         border-bottom: 4px solid;
     }
+
+       
+    .left {
+        margin: 50px;
+        padding-bottom: 50px;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: left;
+        justify-content: space-between; 
+    }
+    
+    .left h3 {
+        color: #6d6b62;
+        font-size: 46px;
+        flex: 1 30%;
+        float: left;
+               
+    }
+
+    .left div {
+        border-left: 3px solid #6d6b62;
+        padding-left: 30px;
+    }
+
+           
+    .left-text {
+        flex: 12;
+    }
+    
+    .left-text p {
+        color: #6d6b62;
+        font-size: 18px;
+    }
+
+    .left-text nav ul li a {
+        color: #6d6b62;
+        border-bottom: none;
+    }
+    
+    .left-text h4 {
+        font-size: 26px;
+        line-height: 1.5;
+        color: #6d6b62;
+    }
+    
+    .apps {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .app {
+        margin: 20px;
+        background: #d5ee92;
+        flex: 1;
+    }
+    
+    .app img {
+        width: 100%;
+    }
+    
+      
+       
+    .app-cont h3 {
+        font-size: 20px;
+    }
+    
+    .app-cont p {
+        font-weight: lighter;
+        font-size: 16px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    
+   
