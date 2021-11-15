@@ -10,7 +10,7 @@ This project is my portfolio website
 * CSS
 
 ## Mockup image <br/>
-![Mockup-image](assets/images/ScreenShot.PNG)
+![Mockup-image](assets/Images/ScreenShot.png)
 
 ## Website link
 
