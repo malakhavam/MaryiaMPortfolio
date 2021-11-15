@@ -41,6 +41,7 @@ body {
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
+    align-items: flex-start;
         
     }
 
@@ -86,7 +87,7 @@ body {
     }
 
     nav ul li a {
-        margin: 0 30px;
+        padding: 10px 15px;
         font-weight: bold;
         font-size: 1.5vw;
         border-bottom: 4px solid;
