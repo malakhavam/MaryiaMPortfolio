@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-        
+    box-sizing: border-box;    
 }
+
+
+
 body {
     color: #d5ee92;
     font-family: Helvetica, Arial, sans-serif;
@@ -91,6 +94,8 @@ body {
         font-weight: bold;
         font-size: 1.5vw;
         border-bottom: 4px solid;
+        margin-right: 5px;
+        
     }
 
        
@@ -150,6 +155,7 @@ body {
         background: #d5ee92;
         flex: 1;
         border: solid #d5ee92 3px;
+        border-bottom: 3px;
     }
     
     .app img {
@@ -163,6 +169,10 @@ body {
 
     .container {
         position: relative;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+              
     }
       
       /* Bottom left text */
@@ -172,25 +182,27 @@ body {
         background-color: #d5ee92;
         color: #6d6b62;
         padding: 5px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
         
       }
 
           
        
     .app-cont h3 {
-        font-size: 20px;
+        font-size: 1.5vw;
         text-align: left;
-        margin-bottom: 5px;
+       
+        
+             
+        
     }
     
     .app-cont p {
         font-weight: lighter;
-        font-size: 16px;
-        margin-bottom: 10px;
-        text-align: left;
+        font-size: 1vw;
+       
+        
     }
+
+   
     
    
